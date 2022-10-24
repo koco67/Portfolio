@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Koço Dhami Portfolio</title>
+    <style>
+        body {
+            color: beige;
+            font-size: 25px;
+        }
+
+        h1{
+            color: saddlebrown;
+            font-size: 60px;
+        }
+        h2{
+            color: darkgoldenrod;
+            font-size: 50px;
+        }
+
+        /* Set the width of the sidebar to 130px */
+        .navigation {
+            width: 130px;
+            background: beige;
+            position: fixed;
+            height: 100%;
+        }
+
+        /* Add a left margin to the "page content" that matches the width of the sidebar (130px) */
+        /* align text to center and fill margin */
+
+        #main {
+            margin-left: 130px;
+            background: #88B04B;
+            text-align: center;
+        }
+
+        .nav {
+            color: saddlebrown;
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- Navigation Menu Bar/ Side Bar -->
+<nav class="navigation">
+    <a href="#home" class="nav">
+        <p>HOME</p>
+    </a>
+    <!-- Information about yourself -->
+    <a href="#information" class="nav">
+        <p>INFO</p>
+    </a>
+    <!-- Personal Projects -->
+    <a href="#projects" class="nav">
+        <p>PROJECTS</p>
+    </a>
+    <!-- Footer with contact info (social – media) -->
+    <a href="#contact" class="nav">
+        <p>CONTACT</p>
+    </a>
+</nav>
+
+<!-- Page Content -->
+<div class="page" id="main">
+    <!-- Header/Home -->
+    <header class="header" id="home">
+        <h1 class="h1"> Koço Dhami</h1>
+        <p>HTW Student - 4th Semester</p>
+        <img src="/campus.jpg" class="image" width="960" height="500">
+    </header>
+
+    <!-- INFORMATION -->
+    <div class="info" id="information">
+        <h1 class="h1">Personal Information</h1>
+        <p> I am a student in Berlin. I have been living in Berlin for just over a year now. I find it very lively,
+            fast-paced and maybe sometimes hectic here, but I must say, I do enjoy it very much. On my free time I like
+            to go outside and meet friends. I love to travel and visit new places. I also play a bit of guitar.
+        </p>
+    </div>
+
+    <!-- PROJECTS -->
+    <div class="proj" id="projects">
+        <h1 class="h1">Personal Projects</h1>
+        <div class="projectparts" id="proj1">
+            <h2 class="h2">Battleship</h2>
+            <img src="/battleship.png" class="image" width="900" height="500">
+            <p>This is still a work in progress, but this semester I've partnered up with Louis and we are developing
+                our own version of Battleship. <br>
+                We are still on our first steps, but this is going to be our work for our Programming class.
+            </p>
+        </div>
+        <div class="projectparts" id="proj2">
+            <h2 class="h2">Gutkraut</h2>
+            <img src="/gutkraut.png" class="image" width="500" height="500"
+                 style="margin-right: 700px; margin-bottom: -350px">
+            <p style="margin-left: 600px; margin-bottom: 300px">In the 3rd semester I had the lovely opportunity to work
+                with Friederike, Susanne and Sascha on a project in our "Design Thinking and Human Values" class.
+                Our objective was to create an app and we decided on "Gutkraut", an app
+                which allows you to build the garden of your dreams.
+            </p>
+        </div>
+
+        <div class="projectparts" id="proj3">
+            <h2 class="h2">Business Administration and Feedback at work </h2>
+            <img src="/bwl.png" class="image" width="450" height="600"
+                 style="margin-right: 800px; margin-bottom: -530px">
+            <img src="/mitarbeiter.png" class="image" width="800" height="450"
+                 style="margin-left: 500px; margin-bottom: 100px">
+            <p>"The impact of international students on a country's GDP" is a project I did for my "Business
+                Administration" class. <br>
+                "Objective setting review" is a project I did for my "Feedback at work" class.
+            </p>
+        </div>
+
+
+    </div>
+    <!-- CONTACTS -->
+    <div class="cont" id="contact">
+        <h1 class="continfo">Contact Information</h1>
+        <hr style="width:200px">
+        <div class="cont" style="margin-right: 500px; margin-bottom: -162px">
+            <p>Berlin, Deutschland</p>
+            <p>Phone: +123 456789</p>
+            <p>Email: dhami@mail.com</p>
+        </div>
+        <div class="cont" style="margin-left: 500px">
+            <p>Youtube: kocodhami</p>
+            <p>Instagram: kocodhami</p>
+            <p>Twitter: kocodhami</p>
+        </div>
+    </div>
+    <br>
+
+</div>
+
+</div>
+</body>
+</html>
